@@ -21,3 +21,8 @@ buttons.forEach(buttonValue => {
         }
     });
 });
+
+const eraser = document.querySelector('#eraser');
+eraser.addEventListener("click", () => {
+    display.value = '';
+})
